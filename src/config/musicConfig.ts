@@ -11,7 +11,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInNavbar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -50,11 +50,39 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
-				lrc: "",
+				name: "アスノヨゾラ哨戒班",
+				artist: "Orangestar / IA",
+				url: "/assets/music/アスノヨゾラ哨戒班 - Orangestar、IA.mp3",
+				cover: "/assets/music/cover/アスノヨゾラ哨戒班.png",
+				lrc: "/assets/music/アスノヨゾラ哨戒班 - Orangestar、IA.lrc",
+			},
+			{
+				name: "ローリンガール",
+				artist: "wowaka / 初音ミク",
+				url: "/assets/music/ローリンガール - wowaka、初音ミク.mp3",
+				cover: "/assets/music/cover/ローリンガール.jpg",
+				lrc: "/assets/music/ローリンガール - wowaka、初音ミク.lrc",
+			},
+			{
+				name: "アストロノーツ（宇航员）",
+				artist: "椎名もた / 初音ミク",
+				url: "/assets/music/アストロノーツ - 椎名もた、初音ミク.mp3",
+				cover: "/assets/music/cover/アストロノーツ.jpg",
+				lrc: "/assets/music/アストロノーツ - 椎名もた、初音ミク.lrc",
+			},
+			{
+				name: "冻夏",
+				artist: "Soda纯白 / 心华",
+				url: "/assets/music/冻夏 - Soda纯白、心华.mp3",
+				cover: "/assets/music/cover/冻夏.png",
+				lrc: "/assets/music/冻夏 - Soda纯白、心华.lrc",
+			},
+			{
+				name: "童祭　~ Innocent Treasures",
+				artist: "市松椿 / 上海アリス幻樂団",
+				url: "/assets/music/童祭　~ Innocent Treasures - 市松椿.mp3",
+				cover: "/assets/music/cover/童祭　~ Innocent Treasures.jpg",
+				lrc: "/assets/music/童祭　~ Innocent Treasures - 市松椿.lrc",
 			},
 		],
 	},

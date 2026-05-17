@@ -2,7 +2,7 @@ import type { BackgroundWallpaperConfig } from "@/types/config";
 
 export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 壁纸模式："banner" 横幅壁纸，"fullscreen" 全屏壁纸，"overlay" 全屏透明，"none" 纯色背景无壁纸
-	mode: "banner",
+	mode: "fullscreen",
 	// 是否允许用户通过导航栏切换壁纸模式
 	// 且同时维护多种壁纸模式过于复杂（已经屎山代码），在切换时有时候可能会出现一些奇怪的过渡效果或者bug
 	// 推荐只选择自己喜欢的模式并关闭切换功能
@@ -41,22 +41,28 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+			"assets/images/DesktopWallpaper/1.jpg",
+			"assets/images/DesktopWallpaper/2.jpg",
+			"assets/images/DesktopWallpaper/3.jpg",
+			"assets/images/DesktopWallpaper/4.jpg",
+			"assets/images/DesktopWallpaper/5.jpg",
+			"assets/images/DesktopWallpaper/6.jpg",
+			"assets/images/DesktopWallpaper/7.jpg",
+			"assets/images/DesktopWallpaper/8.jpeg",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
+			"assets/images/MobileWallpaper/1.jpg",
+			"assets/images/MobileWallpaper/2.jpg",
+			"assets/images/MobileWallpaper/3.jpg",
+			"assets/images/MobileWallpaper/4.jpg",
+			"assets/images/MobileWallpaper/5.jpg",
+			"assets/images/MobileWallpaper/6.jpg",
+			"assets/images/MobileWallpaper/7.jpg",
+			"assets/images/MobileWallpaper/8.jpg",
+			"assets/images/MobileWallpaper/9.jpg",
+			"assets/images/MobileWallpaper/10.png",
 		],
 	},
 	// 横幅壁纸和全屏壁纸共享配置
@@ -70,15 +76,15 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Rolling Site",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
+				"Hello guest!",
+				"Welcome to my site!",
+				"This is my blog!",
+				"立于浮华之世，奏响天籁之音。",
 				"From Undreamt Night, I Thence Shine",
 				"In Finalized Morrow, I Full Bloom",
 			],

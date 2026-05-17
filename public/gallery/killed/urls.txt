@@ -1,0 +1,10 @@
+# 每行一个图片 URL，支持 jpg/png/webp/avif/gif后缀
+# # 号开头的行为注释，空行会被忽略
+# 示例：
+https://s41.ax1x.com/2026/05/17/pexStiQ.jpg
+https://s41.ax1x.com/2026/05/17/pexp6nP.jpg
+https://s41.ax1x.com/2026/05/17/pexpc0f.jpg
+https://s41.ax1x.com/2026/05/17/pexpg78.jpg
+https://s41.ax1x.com/2026/05/17/pexpRAS.jpg
+https://s41.ax1x.com/2026/05/17/pexpsXt.jpg
+https://s41.ax1x.com/2026/05/17/pexpWtg.jpg
