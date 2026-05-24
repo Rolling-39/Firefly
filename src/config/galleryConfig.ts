@@ -17,11 +17,19 @@ export const galleryConfig: GalleryConfig = {
 		// 每添加一个数组项就相当于添加了一个相册，记得在 public/gallery/ 目录下创建对应的子目录并放入图片
 		{
 			id: "killed",
-			name: "画廊",
+			name: "killed",
 			description: "演示相册",
 			location: "来源：Pixiv",
 			date: "2026-05-17",
 			tags: ["VOCALOID", "killed", "抹茶"],
+		},
+		{
+			id: "2",
+			name: "紺屋鴉江",
+			description: "紺屋鴉江是日本插画师，代表作有《VOCALOID》《东方Project》等。",
+			location: "来源：Pixiv",
+			date: "2026-05-24",
+			tags: ["VOCALOID", "紺屋鴉江"],
 		},
 	],
 
